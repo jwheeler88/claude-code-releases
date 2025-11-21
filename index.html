@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Code - Release Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>Claude Code</h1>
+                <p class="subtitle">Release Notes</p>
+            </div>
+            <div class="search-container">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM18 18l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <input type="text" id="searchInput" placeholder="Search releases...">
+            </div>
+        </header>
+
+        <div class="main-content">
+            <aside class="sidebar">
+                <h3>VERSIONS</h3>
+                <div id="versionList" class="version-list">
+                    <div class="loading">Loading versions...</div>
+                </div>
+            </aside>
+
+            <main class="content">
+                <div id="releaseNotes" class="release-notes">
+                    <div class="loading">Loading release notes...</div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
